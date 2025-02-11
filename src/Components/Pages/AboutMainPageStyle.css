@@ -1,0 +1,91 @@
+
+
+.about_container {
+    row-gap: 2rem;
+    text-align: center;
+}
+
+.about_main_page_top_space{
+    /* margin-top: 3rem; */
+    padding-top: 15rem;
+}
+
+.about_subtitle {
+    margin-bottom: var(--mb-2);
+}
+
+
+.about_img {
+    justify-self: center;
+}
+
+.about_img img{
+    width: 200px;
+    border-radius: .5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .about_container {
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        text-align: initial;
+    }
+
+    .about_img img{
+        width: 300px;
+    }
+
+}
+
+.about_information-data{
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem .5rem 3rem;
+   
+}
+
+.information-p{
+    margin-left: 1rem;
+}
+
+
+
+.home_text-rotator {
+    color: rgb(19, 253, 245);
+    font-size: 2.5rem;
+}
+
+@media screen and ( max-width: 768px) {
+    .home_text-rotator {
+        font-size: 1.5rem;
+    }
+}
+
+.home_text-rotator:before {
+    content: 'Software Developer';
+    animation: animate 9s linear infinite;
+}
+
+@keyframes animate 
+{
+    0%
+    {
+        content: 'Software Developer';
+    }
+    20%
+    {
+        content: 'Web Designer';
+    }
+    40%
+    {
+        content: 'React Developer';
+    }
+    60%
+    {
+        content: 'Frontend-Developer';
+    }
+    80%{
+        content: 'Backend-Developer';
+    }
+   
+}

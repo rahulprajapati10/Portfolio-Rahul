@@ -1,0 +1,150 @@
+.footer {
+    width: 100%;
+    padding: 5rem 0;
+    background-color: rgba(19, 19, 19, 0.8);
+}
+
+.footer-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* grid-gap: 40px */
+}
+
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.location {
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.location p {
+    line-height: 30px;
+}
+
+.home-p {
+    margin-left: 3rem;
+}
+
+.country {
+    margin-left: 10px;
+}
+
+.mailbulk{
+    margin-top: 1.1rem;
+}
+
+.cont-h4 {
+    margin-top: 15px;
+    margin-left: 7rem;
+}
+
+.right {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.follow-me{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 1rem;
+}
+
+.social {
+    display: flex;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: -1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.social:hover{
+    cursor: pointer;
+}
+
+.copyright{
+    /* display: flex; */
+    margin-top: 4rem;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(14, 12, 12);
+    padding: 1rem;
+}
+
+.cpr{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+
+h4 {
+    font-size: 1.2rem;
+    padding-bottom: 0.7rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.linkdin:hover{
+    /* color: blue; */
+    background-color: blue;
+  
+
+}
+
+.instagram:hover{
+    background-color:rgb(236, 28, 212) ;
+    border-radius: 10px;
+}
+
+.youtube:hover{
+    background-color: rgb(237, 25, 25);
+    border-radius: 33%;
+}
+
+.facebook:hover{
+    background-color: blue;
+    border-radius: 40%;
+}
+
+/* .twitter:hover{
+    background-color: blue;
+    border-radius: 20%;
+   
+} */
+
+.github:hover{
+    background-color: black;
+    border-radius: 40%;
+}
+
+
+
+
+@media screen and (max-width:640px) {
+
+    .footer-container {
+
+        grid-template-columns: 1fr;
+
+    }
+
+    /* .social{
+        font-size: 6rem;
+    } */
+
+}
