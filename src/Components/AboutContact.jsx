@@ -10,15 +10,16 @@ function AboutContact() {
             <div className="left">
                
                 <br />
-                <p>I'm a full stack Web developer. I create responsive and  secure websites.</p>
+                <p>A passionate Frontend Web developer specializing in crafting engaging, responsive, 
+                and user-freiendly website.</p>
+                
+                <p> With a solid foundation in HTML, CSS, Bootstrap, jQuery and JavaScript. I bring creative ideas to life through</p>
+                <p>seamless and intuitive user interfaces.</p>
                 <br />
-                <p>I am a skilled and passionate web designer with experience in creating visually appealing and <br /> user-friendly websites.</p><br />
-                <p>I am proficient in front-end developmemt and i can work on backend also .</p>
-                <br />
-                <p>I use AI tools also to create the modern and fully responsive website.</p>
-                <br />
-                <h4>I use MERN technology to create the website.</h4>
-                <br />
+                <p>I use AI tools also to create the modern and fully responsive website.</p><br />
+            
+                <h4>Currently , I'm leveling up my skills by diving into the MERN stack MongoDB, Express.js, React.js and Node.js-- to develop .</h4>
+                <h4>scalable, dynamic , and high-performance web application</h4><br />
                 {/* <h3></h3> */}
 
                 <Link to="/contact">

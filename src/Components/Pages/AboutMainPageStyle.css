@@ -70,7 +70,7 @@
 {
     0%
     {
-        content: 'Software Developer';
+        /* content: 'Software Developer'; */
     }
     20%
     {
@@ -85,7 +85,7 @@
         content: 'Frontend-Developer';
     }
     80%{
-        content: 'Backend-Developer';
+        /* content: 'Backend-Developer'; */
     }
    
 }

@@ -16,7 +16,7 @@ const HeroImage2 = (props) => {
         <br />
         <p>{props.text} <br />
         <br />
-        <p>I am a skilled and passionate web designer with experience in creating visually appealing and user-friendly websites.</p>
+        <p>I am a skilled and passionate Frontend Web Developer with experience in creating visually appealing and user-friendly websites.</p>
         
         </p> 
         
