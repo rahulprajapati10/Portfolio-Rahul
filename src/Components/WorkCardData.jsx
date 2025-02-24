@@ -28,7 +28,7 @@ const WorkCardData = [
         imgsrc: Burger,
         title: "Burger Website (UI)",
         text: "Tasty Burger is a modern and visually appealing burger delivery app UI designed using React.js, HTML, CSS, and Bootstrap. This project provides an intuitive and engaging interface that enhances the user experience while ordering their favorite burgers. ",
-        view: "https://portfolio-rahul-snowy.vercel.app/",
+        view: "https://burger-website-blue.vercel.app/",
         Source: ""
     },
 
@@ -36,7 +36,7 @@ const WorkCardData = [
         imgsrc: pro3,
         title: "comming soon",
         text: "Thriving Facebook community and top-ranked podcast, Amy inspires a grounded, tangible and self-affirming sense of Wow ! I really can do this foe over 100,000 online entrepreneurs . Best -selling marketing courses ",
-        view: "",
+        view: "https://burger-website-blue.vercel.app/",
         Source: ""
 
     },
