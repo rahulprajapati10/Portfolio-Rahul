@@ -6,7 +6,7 @@ const PricingCards = () => {
     return (
 
         <div className='pricing'>
-            <div className="card-container">
+            {/* <div className="card-container">
                 <div className="card">
                     <h3>- Basic -</h3>
                     <span className='bar'></span>
@@ -45,7 +45,7 @@ const PricingCards = () => {
                         PURCHASE NOW
                     </Link>
                 </div>
-            </div>
+            </div> */}
         </div>
     )
 }
